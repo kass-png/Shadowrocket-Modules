@@ -1,0 +1,2 @@
+# Shadowrocket-Modules
+Locket Gold
