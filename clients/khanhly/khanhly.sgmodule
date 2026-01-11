@@ -8,9 +8,9 @@
 #!url=https://raw.githubusercontent.com/kass-png/Shadowrocket-Modules/refs/heads/Locket/clients/khanhly/khanhly.sgmodule
 
 [Script]
-revenuecat = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$), script-path=https://raw.githubusercontent.com/kass-png/Shadowrocket-Modules/refs/heads/Locket/clients/nguyendung/nguyendung_main.js, requires-body=true, max-size=-1, timeout=60
+revenuecat = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$), script-path=https://raw.githubusercontent.com/kass-png/Shadowrocket-Modules/refs/heads/Locket/clients/khanhly/khanhly_main.js, requires-body=true, max-size=-1, timeout=60
 
-deleteHeader = type=http-request, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers), script-path=https://raw.githubusercontent.com/kass-png/Shadowrocket-Modules/refs/heads/Locket/clients/nguyendung/nguyendung_deleteheader.js, timeout=60
+deleteHeader = type=http-request, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers), script-path=https://raw.githubusercontent.com/kass-png/Shadowrocket-Modules/refs/heads/Locket/clients/khanhly/khanhly_deleteheader.js, timeout=60
 
 [MITM]
 hostname = %APPEND% api.revenuecat.com
