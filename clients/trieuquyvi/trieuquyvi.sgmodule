@@ -5,7 +5,7 @@
 #!expire=2026/3/11
 #!client=trieuquyvi
 #!status=running
-#!url=https://raw.githubusercontent.com/kass-png/Shadowrocket-Modules/refs/heads/Locket/trieuquyvi.sgmodule
+#!url=https://raw.githubusercontent.com/kass-png/Shadowrocket-Modules/refs/heads/Locket/clients/trieuquyvi/trieuquyvi.sgmodule
 
 [Script]
 revenuecat = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$), script-path=https://raw.githubusercontent.com/kass-png/Shadowrocket-Modules/refs/heads/Locket/clients/trieuquyvi/trieuquyvi_main.js, requires-body=true, max-size=-1, timeout=60
