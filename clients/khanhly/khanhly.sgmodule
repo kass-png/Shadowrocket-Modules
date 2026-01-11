@@ -5,7 +5,7 @@
 #!expire=2026/01/11
 #!client=khanhly
 #!status=running
-#!url=https://raw.githubusercontent.com/kass-png/Shadowrocket-Modules/refs/heads/Locket/Locket%20Gold.sgmodule
+#!url=https://raw.githubusercontent.com/kass-png/Shadowrocket-Modules/refs/heads/Locket/clients/khanhly/khanhly.sgmodule
 
 [Script]
 revenuecat = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$), script-path=https://raw.githubusercontent.com/kass-png/Shadowrocket-Modules/refs/heads/Locket/clients/khanhly/khanhly_main.js, requires-body=true, max-size=-1, timeout=60
